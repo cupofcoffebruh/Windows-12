@@ -68,11 +68,13 @@ body {
 }
 
 .taskbar-button-img {
-    transition: width 100ms;
+    transition:  0.2s;
     width: 30px;
     margin-top: 5px;
 }
-
+.taskbar-button-img:active{
+    transform: scale(0.6);
+}
 .taskbar-button {
     position: relative;
     width: 40px;
